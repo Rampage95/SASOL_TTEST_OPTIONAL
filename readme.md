@@ -80,6 +80,8 @@ You can run this application in two ways:
 
 After running the microservice successfully, a message will be logged in the console saying `The server is listening on port 3030`.
 
+![image](https://user-images.githubusercontent.com/79465722/222982650-0ceac0fa-4568-4af9-8b77-b3d9d149dd33.png)
+
 ### Test with POSTMAN
 
 
