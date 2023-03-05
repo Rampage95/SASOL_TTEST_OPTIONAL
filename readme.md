@@ -89,7 +89,7 @@ In this test, we will provide this input: ![image](https://user-images.githubuse
 
 1. Open Postman and add the following configurations:
 
-![Untitled4](https://user-images.githubusercontent.com/79465722/222983054-4d2f0a5f-6064-480e-9ba2-976cdf28ec8a.png)
+![Untitled4](https://user-images.githubusercontent.com/79465722/222983672-dfb2ae8a-bed9-4b93-9d25-5918398e7bbc.png)
 
   - Method: POST
   - Endpoint: /parse (http://localhost:3030/parse)
