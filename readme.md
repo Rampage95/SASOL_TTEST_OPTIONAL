@@ -91,19 +91,19 @@ In this test, we will provide this input: ![image](https://user-images.githubuse
 
 ![Untitled4](https://user-images.githubusercontent.com/79465722/222983054-4d2f0a5f-6064-480e-9ba2-976cdf28ec8a.png)
 
-- Method: POST
-- Endpoint: /parse (http://localhost:3030/parse)
-- Body: We will send the data in JSON format, so we should JSON.stringify() the input array. The body will be then:
-  ```sh
-  {
-    "sheet": "[[1,2,3,4,5],[1,10,3,4,\"=SUM(A1:E1)\"],[1,2,\"=B2*1.3\",4,5]]"
-  }
-  ```
+  - Method: POST
+  - Endpoint: /parse (http://localhost:3030/parse)
+  - Body: We will send the data in JSON format, so we should JSON.stringify() the input array. The body will be then:
+    ```sh
+    {
+      "sheet": "[[1,2,3,4,5],[1,10,3,4,\"=SUM(A1:E1)\"],[1,2,\"=B2*1.3\",4,5]]"
+    }
+    ```
   
-  2. The received output is: 
+2. The received output is: 
   ![image](https://user-images.githubusercontent.com/79465722/222983389-55d772f0-1ce6-46cb-851f-9c61cfe6584b.png)
 
-  - Note that the input and output are logged in the Terminal console for more clarity.
+- Note that the input and output are logged in the Terminal console for more clarity.
   ![image](https://user-images.githubusercontent.com/79465722/222983464-ed3ef95d-dfc6-403c-ad8a-a7aed4336158.png)
 
  
