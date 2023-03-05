@@ -76,13 +76,15 @@ You can run this application in two ways:
     node main.js
    ```    
 
-## Usage:
+## Usage
 
 After running the microservice successfully, a message will be logged in the console saying `The server is listening on port 3030`.
 
 ![image](https://user-images.githubusercontent.com/79465722/222982650-0ceac0fa-4568-4af9-8b77-b3d9d149dd33.png)
 
 ### Test with POSTMAN
+
+In this test, we will provide this input: ![image](https://user-images.githubusercontent.com/79465722/222982791-9db26e71-b750-4587-817c-0acd3b995aa8.png) and we will be expecting to have this output: ![image](https://user-images.githubusercontent.com/79465722/222982831-58b1a85c-c77d-49d9-81e8-20ba63491397.png)
 
 
 <!-- CONTACT -->
