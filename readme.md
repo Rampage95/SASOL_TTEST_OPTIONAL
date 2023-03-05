@@ -40,6 +40,7 @@ This project is a Node.js Microservice. It parses Excel formulas when given a 2D
 ### Built With
 
 - Node.js, Express
+- Hot-formula-parser Node Module Package
 
 <!-- GETTING STARTED -->
 
@@ -86,7 +87,7 @@ After running the microservice successfully, a message will be logged in the con
 
 In this test, we will provide this input: ![image](https://user-images.githubusercontent.com/79465722/222982791-9db26e71-b750-4587-817c-0acd3b995aa8.png) and we will be expecting to have this output: ![image](https://user-images.githubusercontent.com/79465722/222982831-58b1a85c-c77d-49d9-81e8-20ba63491397.png)
 
-Open Postman and add the following configurations:
+1. Open Postman and add the following configurations:
 
 ![Untitled4](https://user-images.githubusercontent.com/79465722/222983054-4d2f0a5f-6064-480e-9ba2-976cdf28ec8a.png)
 
@@ -99,10 +100,10 @@ Open Postman and add the following configurations:
   }
   ```
   
-  The received output is: 
+  2. The received output is: 
   ![image](https://user-images.githubusercontent.com/79465722/222983389-55d772f0-1ce6-46cb-851f-9c61cfe6584b.png)
 
-  Note that the input and output are logged in the Terminal console for more clarity.
+  - Note that the input and output are logged in the Terminal console for more clarity.
   ![image](https://user-images.githubusercontent.com/79465722/222983464-ed3ef95d-dfc6-403c-ad8a-a7aed4336158.png)
 
  
